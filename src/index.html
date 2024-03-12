@@ -5,17 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="./js/main.js" type="module" defer></script>
     <link rel="stylesheet" href="./output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body class="h-screen w-screen">
     <main class="h-full w-full">
         <div class="h-full w-full bg-[#131E44]">
-            <div class="h-32 bg-[#293974] flex justify-center items-center">
+            <div class="header h-32 bg-[#293974] flex justify-center items-center">
                 <img src="./image/logo-ACME-removebg-preview 1.png" alt="">
                 <img src="./image/menu-svgrepo-com__1_-removebg-preview 1.png" alt="" class="size-20">
             </div>
-            <div class="w-full">
-                <input type="search" placeholder="Pesquise aqui..." class="outline-transparent">
+            <div class="h-4/5 w-full flex flex-col items-center">
+                <div class="h-12 w-2/4 flex justify-center">
+                    <input type="text" placeholder="Pesquise aqui..." class="w-full outline-transparent rounded-lg px-1 outline-none bg-[#293974]">
+                </div>
             </div>
         </div>
     </main>    
