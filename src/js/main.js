@@ -6,7 +6,7 @@ function criarCard(filme) {
     card.classList.add("w-44", "h-60", "rounded-lg")
     const cardImg = document.createElement('img')
     cardImg.src = filme.foto_capa
-    cardImg.classList.add("w-44", "h-60", "rounded-lg")
+    cardImg.classList.add("w-44", "h-60", "rounded-lg") 
     card.appendChild(cardImg)
     return card
 }
