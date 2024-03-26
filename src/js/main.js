@@ -30,4 +30,4 @@ const filme = {
 }
 // await postFilme(filme)
 preencherContainer()
-// deleteFilme(6)
+//deleteFilme(8)
